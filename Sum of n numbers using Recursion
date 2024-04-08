@@ -1,0 +1,9 @@
+def sum(n):
+   if(n==1):
+       return n
+   else:
+       return n*(n+1)/2
+
+num=5
+S=sum(num)
+print("The sum of", num, "numbers is", S)
