@@ -1,0 +1,9 @@
+def sum(a,b,c,d,e):
+    s=a+b+c+d+e
+    return s
+def avr(s,n):
+    Avr=s//n
+    return Avr
+s=sum(23,12,56,34,15)
+y=avr(s,5)
+print(y)
