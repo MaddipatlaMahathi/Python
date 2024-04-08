@@ -1,0 +1,12 @@
+a="Good morning"
+b="_"
+print(a.capitalize())
+print(a.upper())
+print(a.lower())
+print(a.title())
+print(a.swapcase())
+print(a.split())
+print(a.center(20,"*"))
+print(a.count("good"))
+print(a.replace("morning","Night"))
+print(b.join(a))
