@@ -1,0 +1,11 @@
+rows = 2
+columns = 2
+matrix = [[0 for i in range(columns)] for j in range(rows)]
+matrix[0][0] = 1
+matrix[0][1] = 2
+matrix[1][0] = 4
+matrix[1][1] = 5
+for row in matrix:
+    for element in row:
+        print(element, end=" ")
+    print()
