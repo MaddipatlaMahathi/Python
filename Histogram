@@ -1,0 +1,9 @@
+def histogram(a):
+    for i in a:
+        sum = ''
+        while(i>0):
+            sum=sum+'#'
+            i=i-1 
+        print(sum) 
+a=[1,2,3,4,5] 
+histogram(a) 
