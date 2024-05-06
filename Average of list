@@ -1,0 +1,5 @@
+def calc_average(lst):  
+    return sum(lst) / len(lst)  
+lst = [24, 19, 35, 46, 75, 29, 30, 18]  
+average = calc_average(lst)  
+print("The average of the list is ", average)
