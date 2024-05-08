@@ -1,0 +1,7 @@
+def find_substring_index(s, sub):
+    return s.index(sub)
+
+test_str = "Hello World"
+test_sub = "World"
+print("The original string is :", test_str)
+print("The index of the substring is :", find_substring_index(test_str, test_sub))
