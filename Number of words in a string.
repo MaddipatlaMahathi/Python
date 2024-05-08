@@ -1,0 +1,4 @@
+s="Python programming"
+u=s.split()
+c=len(u)
+print(c)
