@@ -1,0 +1,16 @@
+def is_palindrome(s):
+    return s == s[::-1]
+
+def largest_palindrome_brute_force(s):
+    max_palindrome = ""
+    for i in range(len(s)):
+        for j in range(i, len(s)):
+            substring = s[i:j+1]
+            if is_palindrome(substring) and len(substring) > len(max_palindrome):
+                max_palindrome = substring
+    return max_palindrome
+
+# Test the function
+input_string = "babad"
+result = largest_palindrome_brute_force(input_string)
+print(result)
