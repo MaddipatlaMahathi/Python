@@ -1,0 +1,3 @@
+input_string = input("Enter a string: ")
+result = input_string.replace(" ", "")
+print("String after removing whitespace characters:", result)
