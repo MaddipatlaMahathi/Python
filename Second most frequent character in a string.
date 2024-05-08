@@ -1,0 +1,13 @@
+from collections import Counter
+
+def second_most_frequent_char(s):
+    counter = Counter(s)
+    freq = counter.most_common()
+    if len(freq) < 2:
+        return "No second most frequent character"
+    else:
+        return freq[1][0]
+
+test_str = "aabbbcccc"
+print("The original string is :", test_str)
+print("The second most frequent character is :", second_most_frequent_char(test_str))
