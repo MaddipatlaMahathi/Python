@@ -1,0 +1,9 @@
+x="iscqhxis"
+y="zjooxis"
+a=len(x)
+b=len(y)
+z=''
+for i in range(a):
+    if(x[i] in y and x[i] not in z):
+        z=z+x[i]
+print(z)
